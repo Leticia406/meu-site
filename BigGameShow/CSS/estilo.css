@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    
+}
+html,body{
+    font-size: 62,5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-rendering: optimizeLegibility;
+    height: 100%;
+}
+
+
+header{
+    display: flex;
+    background-color:black;
+
+}
+
+figure {
+    width: 10rem;
+    height: 10rem;
+}
+
+nav > a{
+    font-size: 1.2rem;
+    justify-content:center;
+    align-items: center;
+    margin-left: 10rem;
+    color:aliceblue; 
+
+}
+
+.jogosa {
+    width:20rem;
+    height: 50rem;
+    background-color: black solid;
+    justify-content:flex-end;
+    align-items:last baseline;
+    display:flex;
+    flex-direction: column;
+    float:right;
+}
+
+
+.fotos {
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    padding-bottom: 5rem ;
+    flex-wrap: wrap;
+}
+
+div{
+    width: 5rem;
+    height: 5rem;
+    background-color:dodgerblue;
+    margin-left: 2rem;
+    margin-bottom: -5rem;
+
+}
+
+section{
+    width: 5rem;
+    height: 5rem;
+    background-color:blueviolet;
+    margin-left: 38rem;
+    margin-bottom: -5rem;
+
+}
+
+img{
+    margin-bottom: 1.2rem;
+}
+
+body{
+    margin-bottom: 100rem;
+    background-color:darkblue;
+}

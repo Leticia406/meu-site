@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-size: 62.5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-rendering: optimizeLegibility;
+
+   background-color: #FFFFFF; 
+}
+
+h1{
+    width: 100%;
+    background-color: #EEEEEE;
+    border-radius: 5rem;
+    display: flex;
+    justify-content: center;
+}
+div{
+    background-color: #326273;
+    border-radius:5rem;
+    height: 65rem;
+    width: 70rem;
+    font-size:3rem ;
+    margin-left: 30%;
+    margin-top: 5rem;
+    padding: 1rem;
+ }
+
+ p{
+    width: 100%;
+    background-color: #EEEEEE;
+    border-radius: 5rem;
+    display: flex;
+    justify-content: center;
+
+    margin-top: 5rem;
+    padding: 1rem;
+ }
+
+ a{
+    background-color: #5C9EAD;
+    display: flex;
+    justify-content: center;
+    margin: 4rem;
+    border-radius: 5rem;
+    padding: 1rem;
+    color: #EEEEEE;
+ }
+
+
+
+
+ 

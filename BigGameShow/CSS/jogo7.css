@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    
+}
+html,body{
+    font-size: 62,5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-rendering: optimizeLegibility;
+    height: 100%;
+    background-image: url("../Imagem/fundoRedDeadRedemption2.png");
+}
+
+div {
+    
+    height: 30rem;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    
+  
+}
+p{
+    
+    background-color:red;
+    height: 13rem;
+    width: 65rem;
+    padding: 3rem; 
+    margin-top: 15rem;
+    margin-right: 10rem;
+    border-radius: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+a{
+    
+    border-radius: 10rem;
+    margin-top: 10rem;
+    margin-right: 1rem;
+}
+
+img{
+    border-radius: 5%;
+}
+
+
+button {
+    --color: #560bad;
+    font-family: inherit;
+    display: inline-block;
+    width: 8em;
+    height: 2.6em;
+    line-height: 2.5em;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid var(--color);
+    transition: color .5s;
+    z-index: 1;
+    font-size: 17px;
+    border-radius: 6px;
+    font-weight: 500;
+    color: var(--color);
+   }
+   
+   button:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+   }
+   
+   button:hover {
+    color: #fff;
+   }
+   
+   button:before {
+    top: 100%;
+    left: 100%;
+    transition: all .7s;
+   }
+   
+   button:hover:before {
+    top: -30px;
+    left: -30px;
+   }
+   
+   button:active:before {
+    background: #3a0ca3;
+    transition: background 0s;
+   }
